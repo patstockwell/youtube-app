@@ -1,0 +1,49 @@
+.search-bar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.list-group-item:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.details {
+    border: solid 1px #ddd;
+    padding: 20px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.media-body {
+    padding: 5px;
+    font-size: 80%;
+}
+
+.search-bar-logo {
+    height: 25px;
+}
+
+.top5 {
+    font-size: 100%;
+    vertical-align: middle;
+}
+
+.app-name {
+    text-align: left;
+    margin: 10px;
+}
+
+@media (min-width: 991px) {
+    .top5 {
+        font-size: 150%;
+    }
+
+    .search-bar-logo {
+        height: 38px;
+    }
+
+    .app-name {
+        margin-top: 0px;
+    }
+}
