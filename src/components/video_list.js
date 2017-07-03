@@ -1,9 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 import VideoListItem from './video_list_item'
 
 const VideoList = (props) => {
     const videoItems = props.videos.map((eachVideo) => {
-        return <VideoListItem  video={eachVideo}/>
+        return <VideoListItem
+            onVideoSelect = {props.onVideoSelect}
+            key = {eachVideo.etag}
+            video = {eachVideo}/>
     })
 
     return(
